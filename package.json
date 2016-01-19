@@ -1,0 +1,29 @@
+{
+  "name": "grunted",
+  "version": "0.0.00",
+  "description": "Grunted, by someone who grunts",
+  "license":"CC-BY-3.0",
+  "main": "Gruntfile.js",
+  "repository": {},
+  "devDependencies": {
+    "almond": "^0.3.1",
+    "can": "^2.3.10",
+    "grunt": "~0.4.5",
+    "grunt-concurrent": "~1.0.0",
+    "grunt-contrib-clean": "~0.6.0",
+    "grunt-contrib-concat": "~0.5.1",
+    "grunt-contrib-copy": "~0.8.0",
+    "grunt-contrib-jshint": "~0.11.2",
+    "grunt-contrib-less": "~1.0.1",
+    "grunt-contrib-requirejs": "^0.4.4",
+    "grunt-contrib-uglify": "~0.5.0",
+    "grunt-jscs": "^1.8.0",
+    "grunt-string-replace": "^1.2.0",
+    "jquery": "^2.1.0",
+    "less-plugin-autoprefix": "^1.4.2",
+    "less-plugin-clean-css": "^1.5.0",
+    "load-grunt-tasks": "~3.2.0",
+    "reset.css": "^2.0.2",
+    "time-grunt": "~1.2.1"
+  }
+}
