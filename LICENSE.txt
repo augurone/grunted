@@ -1,0 +1,7 @@
+fridaze confidential
+==================
+Copyright 2016 fridaze
+All Rights Reserved.
+
+NOTICE: This is all based on open-source licenses and therefore is open source.
+==================
