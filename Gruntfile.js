@@ -88,6 +88,14 @@ module.exports = function (grunt) {
 				}
 			}
 		},
+		mocha: {
+			all: {
+				src: ['tests/testrunner.html'],
+			},
+			options: {
+				run: true
+			}
+		},
 		less: {
 			dist: {
 				options: {
@@ -129,9 +137,11 @@ module.exports = function (grunt) {
 	grunt.loadNpmTasks('grunt-contrib-requirejs');
 	grunt.loadNpmTasks('grunt-contrib-uglify');
 	grunt.loadNpmTasks('grunt-jscs');
+	grunt.loadNpmTasks('grunt-mocha');
 	grunt.loadNpmTasks('grunt-string-replace');
 
 	grunt.registerTask('default', ['build']);
 	grunt.registerTask('build',['clean','concurrent:js','concurrent:css', 'concurrent:minify']);
+	grunt.registerTask('test',['mocha']);
 
 };
